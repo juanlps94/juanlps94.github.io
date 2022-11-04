@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nf{
+    position: relative;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+#header{
+justify-content: center;
+}
+
+.fix{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    }
+
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+form input{
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
+#header-img{ 
+    width: 50px;
+    height: auto;
+    margin-left: 5px;
+}
+
+#title{
+    margin-left: 30px;
+}
+
+.nf div span img{
+    width: 80px;
+    height: auto;
+}
+
+
+#articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px;
+    margin-bottom: 5px;
+   width: 45%;
+    margin-left: 27.5%;
+}
+
+span{
+    display: flex;
+    align-self: flex-start;
+}
+
+span p{
+    margin: 10px;
+    margin-top: 5px;
+}
+
+span h3, span p{
+    margin-left: 30px;
+}
+span img{
+    margin: 10px;
+}
+.frame{
+    text-align: center;
+    margin: 20px;
+}
+
+#footer{
+    height: 30px;
+    text-align: right;
+}
+
+@media (max-width: 360px){
+    p{
+        font-size: 12px;
+    }
+}

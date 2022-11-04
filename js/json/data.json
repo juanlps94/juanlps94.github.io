@@ -1,0 +1,68 @@
+datos = [
+    {
+        "img": "Imagenes/tribute1.png",
+        "parag": "Presentation Juan",
+        "alt": "Presentation"
+    },
+    {
+        "img": "Imagenes/tribute2.png",
+        "parag": "Survey made by Juan Luis",
+        "alt": "Survey"
+    },
+    {
+        "img": "Imagenes/tribute3.png",
+        "parag": "More about me",
+        "alt": "About me"
+    },
+    {
+        "img": "Imagenes/tribute4.png",
+        "parag": "Documentation page",
+        "alt": "Documentation Test"
+    }
+]
+
+datosEsp = [
+    {
+        "img": "Imagenes/tribute1.png",
+        "parag": "Presentacion Juan",
+        "alt": "Presentation"
+    },
+    {
+        "img": "Imagenes/tribute2.png",
+        "parag": "Encuesta hecha por Juan Luis",
+        "alt": "Survey"
+    },
+    {
+        "img": "Imagenes/tribute3.png",
+        "parag": "Más acerca de mi",
+        "alt": "About me"
+    },
+    {
+        "img": "Imagenes/tribute4.png",
+        "parag": "Pagina de Documentacion",
+        "alt": "Documentation Test"
+    }
+]
+
+datosContact=[
+    {
+        "link": "https://github.com/juanlps94",
+        "img" :"fa-brands fa-github",
+        "parag": "GitHut"
+    },
+    {
+        "link": "https://www.facebook.com/juanluis.perez.37",
+        "img": "fa-brands fa-facebook",
+        "parag": "Facebook"
+    },
+    {
+        "link": "https://instagram.com/juanlps54",
+        "img": "fa-brands fa-instagram",
+        "parag": "Instagram"
+    },
+    {
+        "link": "https://wa.me/+584241888345",
+        "img": "fa-brands fa-whatsapp",
+        "parag": "WhatsApp"
+    }
+]
