@@ -38,7 +38,10 @@ let eng = {
     "ability": "Capacidades"
 };
 
-let cad = String(document.URL).replace(/\W/gi, ' ').match(/index|index_es/gi)[0];
+let cad = String(document.URL),
+    urleng = 'https://juanlps94.github.io/portfolio/index.html',
+    urlesp = 'https://juanlps94.github.io/portfolio/index_es.html';
+
 let dataProfile = $(".navbar")[0].children,
     dataProjects = $("#project-grid")[0],
     dataDev = $(".apt-info")[0],
@@ -51,7 +54,8 @@ let dataProfile = $(".navbar")[0].children,
 iconsMenu.html('<i class="fa fa-language"></i><i class="fa fa-bars"></i>');
 
 /**INICIO DEL IF**/
-if (cad === 'index') {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT)**/      
+if (cad === urleng) {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT)**/  
+    console.log("Hello World");
     for (let item of dataProfile) {
         if (eng.hasOwnProperty(item.id)){
             item.textContent = eng[item.id];
@@ -77,8 +81,8 @@ if (cad === 'index') {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT
 
     /**FIN DE MIS DATOS EN EN INGLES **/
 
-} else if (cad === 'index_es') {/**LLENAR PAGINA EN ESPAÑOL SI SE PRESIONA EL BOTON DE ESPAÑOL**/
-    
+} else if (cad === urlesp) {/**LLENAR PAGINA EN ESPAÑOL SI SE PRESIONA EL BOTON DE ESPAÑOL**/
+    console.log("Hola Mundo");
     /**MIS DATOS EN ESPAÑOL**/
   for (let item of dataProfile) {
         if (span.hasOwnProperty(item.id)) {
