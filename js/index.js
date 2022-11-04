@@ -38,7 +38,7 @@ let eng = {
     "ability": "Capacidades"
 };
 
-let cad = String(document.URL).replace(/\W/gi, ' ').match(/index_es|index/gi);
+let cad = String(document.URL).replace(/\W/gi, ' ').match(/index|index_es/gi);
 let dataProfile = $(".navbar")[0].children,
     dataProjects = $("#project-grid")[0],
     dataDev = $(".apt-info")[0],
