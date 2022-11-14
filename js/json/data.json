@@ -1,46 +1,42 @@
 datos = [
     {
-        "img": "Imagenes/tribute1.png",
-        "parag": "Presentation Juan",
-        "alt": "Presentation"
-    },
-    {
         "img": "Imagenes/tribute2.png",
         "parag": "Survey made by Juan Luis",
-        "alt": "Survey"
+        "alt": "Survey",
+        "url": "Proyectos/survey.html"
     },
     {
         "img": "Imagenes/tribute3.png",
         "parag": "More about me",
-        "alt": "About me"
+        "alt": "About me",
+        "url": "Proyectos/about.html"
     },
     {
         "img": "Imagenes/tribute4.png",
         "parag": "Documentation page",
-        "alt": "Documentation Test"
+        "alt": "Documentation Test",
+        "url": "Proyectos/documentation.html"
     }
 ]
 
 datosEsp = [
     {
-        "img": "Imagenes/tribute1.png",
-        "parag": "Presentacion Juan",
-        "alt": "Presentation"
-    },
-    {
         "img": "Imagenes/tribute2.png",
         "parag": "Encuesta hecha por Juan Luis",
-        "alt": "Survey"
+        "alt": "Survey",
+        "url": "Proyectos/survey.html"
     },
     {
         "img": "Imagenes/tribute3.png",
         "parag": "Más acerca de mi",
-        "alt": "About me"
+        "alt": "About me",
+        "url": "Proyectos/about.html"
     },
     {
         "img": "Imagenes/tribute4.png",
         "parag": "Pagina de Documentacion",
-        "alt": "Documentation Test"
+        "alt": "Documentation Test",
+        "url": "Proyectos/documentation.html"
     }
 ]
 

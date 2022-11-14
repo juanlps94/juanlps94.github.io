@@ -70,7 +70,7 @@ if (cad === urleng) {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT)
     for (let item of datos){
         dataProjects.innerHTML += `
         <div class="project">
-        <a href=""><img src="${item.img}" alt="${item.alt}" class="project-image">
+        <a href="${item.url}"><img src="${item.img}" alt="${item.alt}" class="project-image">
         <p>${item.parag}</p>
         </a></div>`
     }
@@ -97,7 +97,7 @@ if (cad === urleng) {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT)
     for (let item of datosEsp) {
         dataProjects.innerHTML += `
         <div class="project">
-        <a href=""><img src="${item.img}" alt="${item.alt}" class="project-image">
+        <a href="${item.url}"><img src="${item.img}" alt="${item.alt}" class="project-image">
         <p>${item.parag}</p>
         </a></div>`
     }
