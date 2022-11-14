@@ -52,7 +52,7 @@ let dataProfile = $(".navbar")[0].children,
 
 //FIN VARIABLES
 iconsMenu.html('<i class="fa fa-language"></i><i class="fa fa-bars"></i>');
-
+console.log(urlesp);
 /**INICIO DEL IF**/
 if (cad === urleng) {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT)**/  
     for (let item of dataProfile) {
