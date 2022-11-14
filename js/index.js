@@ -39,8 +39,8 @@ let eng = {
 };
 
 let cad = String(document.URL),
-    urleng = 'https://juanlps94.github.io',
-    urlesp = 'https://juanlps94.github.io/portfolio/index_es.html';
+    urleng = 'https://juanlps94.github.io/',
+    urlesp = 'https://juanlps94.github.io/index_es.html/';
 
 let dataProfile = $(".navbar")[0].children,
     dataProjects = $("#project-grid")[0],
