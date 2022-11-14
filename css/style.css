@@ -1,72 +1,89 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-body{
-    background-color: #cecece
-  }
-  
-  #title{
-    background-color: #cecece;
-      display: flex;
-      justify-content: center;
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 0;
-      z-index: 1;
-  }
-  
-  #tribute-info{
-      display: flex;
-      justify-content: center;
-  }
-  .caja{
-    position: absolute;
-    top:10%;
-    right:0;
-    left:0;
-  }
-  
-  #tribute-info h3 {
-      font-weight: 100;
-      font-size: 12px;
-  }
-  
-  .img-flex {
-      background-color: #cecece;
-      display: flex;
-      flex-direction:column;
-      align-items: center;
-      justify-content: center;
-      margin: 15px 15px;
-      padding: 10px;
-    }
-    #img-caption{
-        margin: 3px;
-    text-align: center;
-    }
+
+body {
+  background-color: #cecece
+}
+
+#title {
+  background-color: #cecece;
+  display: flex;
+  justify-content: center;
+}
+
+#tribute-info {
+  display: flex;
+  justify-content: center;
+}
+
+#title h1 {
+  font-size: 40px;
+}
+
+#tribute-info h3 {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.img-flex {
+  background-color: #cecece;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 15px;
+  padding: 10px;
+}
+
+#img-caption {
+  margin: 3px;
+  text-align: center;
+}
 
 
-    img{
-      display: block;
-      max-width: 100%;
-      height: auto;
-  
-    }
-   
-    .section{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  .section ul li{
-      max-width: 700px;
-      margin-bottom: 15px;
-  }
-  
-  #link-flex{
-      display: flex;
-      justify-content: center;
-  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section h5 {
+  font-size: 35px;
+
+}
+
+.section ul li {
+  max-width: 700px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+
+#link-flex {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #4c6086;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}

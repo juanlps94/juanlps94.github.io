@@ -41,7 +41,8 @@ ul li{
 }
 
 a{
-    text-decoration: none;    
+    text-decoration: none;
+    color: blue;    
 }
 
 .form{
@@ -118,3 +119,4 @@ span img{
         font-size: 12px;
     }
 }
+
