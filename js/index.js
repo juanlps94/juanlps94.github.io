@@ -54,6 +54,10 @@ let dataProfile = $(".navbar")[0].children,
 iconsMenu.html('<i class="fa fa-language"></i><i class="fa fa-bars"></i>');
 
 /**INICIO DEL IF**/
+ console.log(cad);
+     console.log(urleng);
+
+
 if (cad === urleng) {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT)**/  
     console.log("Hello World");
     for (let item of dataProfile) {
