@@ -39,7 +39,7 @@ let eng = {
 };
 
 let cad = String(document.URL),
-    urleng = 'https://juanlps94.github.io/portfolio/index.html',
+    urleng = 'https://juanlps94.github.io',
     urlesp = 'https://juanlps94.github.io/portfolio/index_es.html';
 
 let dataProfile = $(".navbar")[0].children,
