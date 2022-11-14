@@ -54,12 +54,7 @@ let dataProfile = $(".navbar")[0].children,
 iconsMenu.html('<i class="fa fa-language"></i><i class="fa fa-bars"></i>');
 
 /**INICIO DEL IF**/
- console.log(cad);
-     console.log(urleng);
-
-
 if (cad === urleng) {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT)**/  
-    console.log("Hello World");
     for (let item of dataProfile) {
         if (eng.hasOwnProperty(item.id)){
             item.textContent = eng[item.id];
@@ -86,7 +81,6 @@ if (cad === urleng) {  /**MIS DATOS EN EN INGLES (ESTA PAGINA ESTÁ POR DEFAULT)
     /**FIN DE MIS DATOS EN EN INGLES **/
 
 } else if (cad === urlesp) {/**LLENAR PAGINA EN ESPAÑOL SI SE PRESIONA EL BOTON DE ESPAÑOL**/
-    console.log("Hola Mundo");
     /**MIS DATOS EN ESPAÑOL**/
   for (let item of dataProfile) {
         if (span.hasOwnProperty(item.id)) {
