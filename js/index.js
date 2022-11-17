@@ -161,5 +161,13 @@ $('.navbar a').on('click', function(){
 })
 
 
+window.onresize = function(){
+    console.log(screen.width)
+    if(screen.width>768){
+        $('.navbar').css('display','flex');
+        $('.langs').css('display','flex');
+    }
+}
+
 });
 /** FIN DE FUNCIONES**/
