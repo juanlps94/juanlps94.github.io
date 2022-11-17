@@ -75,7 +75,9 @@ footer {
 
 }
 .navbar,.langs{
-    margin: 8rem 0rem 0rem 1rem;
+    /*margin: 8rem 0rem 0rem 1rem;*/
+    position: absolute;
+    top: 6rem;
     border-radius: 1rem;
 }
 .navbar {
