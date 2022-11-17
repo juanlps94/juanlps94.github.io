@@ -168,5 +168,13 @@ window.onresize = function(){
     }
 }
 
+window.onresize = function(){
+    if(screen.width<768){
+        $('.navbar').css('display','none');
+        $('.langs').css('display','none');
+    }
+}
+
+
 });
 /** FIN DE FUNCIONES**/
