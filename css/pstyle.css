@@ -60,15 +60,6 @@ footer {
 
 /**Navegation**/
 
-.bar {
-    /* background-color: var(--reddark); */
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 6rem;
-    z-index: 3;
-}
-
 .icons-menu {
     display: flex;
     font-size: 4rem;
@@ -158,6 +149,7 @@ a {
     }
 
      .bar {
+        position: fixed;
         margin: auto 0;
         width: 20rem;
         height: 100vh;
