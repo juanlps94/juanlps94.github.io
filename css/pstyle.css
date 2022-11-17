@@ -122,6 +122,14 @@ a {
     .welcome-section{
         margin: 0 auto;
     }
+    .navbar,.langs{
+        margin: 0rem 1rem;
+        width: 100%;
+        position: relative;
+        top: 0rem;
+        border-radius: 1rem;
+    }
+
     .navbar {
         border-radius: 0rem;
         background-color: var(--reddark);
