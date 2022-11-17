@@ -162,16 +162,12 @@ $('.navbar a').on('click', function(){
 
 
 window.onresize = function(){
-    if(screen.width>768){
-        $('.navbar').css('display','flex');
-        $('.langs').css('display','flex');
-    }
-}
-
-window.onresize = function(){
     if(screen.width<768){
         $('.navbar').css('display','none');
         $('.langs').css('display','none');
+    }else{
+        $('.navbar').css('display','flex');
+        $('.langs').css('display','flex');
     }
 }
 
